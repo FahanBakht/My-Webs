@@ -1,0 +1,343 @@
+<!-- DOCUMENT TYPE Declaration -->
+<!doctype html>
+<!-- HTML OPENING TAG -->
+<html>
+	<!--HEAD OPENING TAG -->
+	<head>
+		<!-- TITLE OF DOCUMENT -->
+		<title>Safe Carz Jubilee</title>
+		<!-- CHARACTER-SET DECLARATION -->
+		<meta charset="UTF-8" />
+		<!-- CASCASING STYLESHEET LINK -->
+		<link rel="stylesheet" type="text/css" href="../Stylesheet/page2.css" />
+		<!--link to normalize.css file-->
+		<link rel="stylesheet" type="text/css" href="../Stylesheet/normalize/normalize.css" />
+		<!-- LOGO ICON LINK -->
+		<link rel="Icon" href="logo.ico" />
+		<!-- META-DATA INFORMATION -->
+		<meta name="description" content="Welcome To Safe Carz Limited" />
+		<!-- META-DATA INFORMATION -->
+		<meta name="author" content="Syed Bilal,Farhan Bakht,Aqib Siddiqi & Abdul Wahab" />
+	<!-- HEAD CLOSING TAG -->
+	</head>
+	
+	<body>
+		<!-- WRAP OPENING DIV -->
+		<div class="wrap">
+		
+			<!-- HEADER OPENING TAG -->
+			<header>
+			
+				<!-- NAVIGATION BAR OPENING DIV -->
+				<div class="global-links-bar">
+					<!-- IMAGE TAG -->
+					<img class="logo" src="Images/Car-insurance-logo.png" />
+					<!-- NAVIGATION BAR OPENING LIST TAG -->
+					<ul>
+						<!-- NAVIGATION BAR CHILD LIST TAG -->
+						<li><a class="global-links-bar-anchor" href="../Index.html">HOME</a></li>
+						<li><a class="global-links-bar-anchor" href="aboutus.html">ABOUT US</a></li>
+						<li><a class="global-links-bar-anchor" href="insuranceplans.html">INSURANCE PLANS</a></li>
+						<li><a class="global-links-bar-anchor" href="storelocation.html"> STORE LOCATION </a></li>
+						<li><a class="global-links-bar-anchor" href="contectus.html">CONTACT US</a></li>
+					<!-- NAVIGATION BAR CLOSING LIST TAG -->			
+					</ul>
+				<!-- NAVIGATION BAR CLOSING DIV -->
+				</div>
+				
+				<!-- HEADER BANNER IMAGE OPENING DIV -->
+				<div class="header-banner-container">
+					<!-- HEADER DROP DOWN LIST OPENING DIV -->
+				<div class="dropdown">
+					<button class="dropbtn">Get Started</button>
+						<div class="dropdown-content">
+							<a href="zurich.html">Zurich Insurance</a>
+							<a href="jubilee.html">Jubilee Insurance</a>
+							<a href="nationwide.html">Nationwide Insurance</a>
+							<a href="geico.html">Geico Insurance</a>
+							<a href="progressive.html">Progressive Insurance</a>
+						</div>
+				<!-- HEADER DROP DOWN LIST OPENING DIV -->		
+				</div>
+				<!-- HEADER BANNER IMAGE CLOSING DIV -->
+				</div>
+				
+			<!-- HEADER CLOSING TAG -->       
+			</header>
+			
+			<!-- SECTION OPENING TAG -->			
+			<section>
+			
+				<!-- UPPER SECTION OPENING DIV -->
+				<div id="upper-section-main">
+				
+					<!--UPPER SECTION DIV 1 OPENING -->
+					<div id="upper-section-div-1">
+						<img src="../Images/jubilee.png" class="company-logo-img"/>
+					<!--UPPER SECTION DIV 1 OPENING -->	
+					</div>
+					
+					<!--UPPER SECTION DIV 2 OPENING -->
+					<div id="upper-section-div-2">
+						<!-- UPPER SECTION NAVIGATOR 1 DIV OPENING -->
+						<div class="section-navigator-1">
+							<!-- IN NAVIGATOR LINE 1 DIV -->
+							<div class="navigator-line-1" >
+							</div>
+							<!--IN NAVIGATOR LINE 2 DIV -->
+							<div class="navigator-line-2" >
+							</div>
+							<!-- IN NAVIGATOR HEADING -->
+							<p align="center" class="navigator-heading">Select Vehiciel Type</p>
+						<!-- UPPER SECTION NAVIGATOR 1 CLOSING DIV -->
+						</div>
+						
+						<!-- UPPER SECTION HOW SITE WORKS STEP 1 OPENING DIV -->
+						<div class="site-work-step-1 vehicielDiv" id="z" onclick="selectVehiciel(this)">
+							<!-- IMAGE TAG -->
+							<img class="steps-img" src="Images/four-wheeler.png" />
+							<!-- HEADING TAG -->
+							<p class="steps-heading" align="center">FOUR WHEELER</p>
+							<!-- PARAGRAPH INFO OPENING TAG -->
+							<p class="steps-info-para">
+								<div class="steps-info-para-div">
+									Safe Carz ltd provides policies of different insurance company
+									that we are linked. so we have a large number of policies
+									for our members to take right-full step and make their
+									own plans.
+								</div>
+							<!-- PARAGRAPH INFO OPENING TAG -->
+							</p>
+						<!-- UPPER SECTION HOW SITE WORKS STEP 1 CLOSING DIV -->
+						</div>
+						<!-- CHECK BOX BUTTON -->
+						
+						<!-- UPPER SECTION HOW SITE WORKS STEP 2 OPENING DIV -->
+						<div class="site-work-step-2 vehicielDiv" id="x" onclick="selectVehiciel(this)">
+							<!-- IMAGE TAG -->
+							<img class="steps-img" src="Images/two-wheeler.png" />
+							<!-- HEADING TAG -->
+							<p class="steps-heading" align="center">TWO WHEELER</p>
+							<!-- PARAGRAPH INFO OPENING TAG -->
+							<p class="steps-info-para">
+								<div class="steps-info-para-div">	
+									Safe Carz ltd provides policies of different insurance company
+									that we are linked. so we have a large number of policies
+									for our members to take right-full step and make their
+									own plans.
+								</div>	
+							<!-- PARAGRAPH INFO CLOSING TAG -->
+							</P>
+						<!-- UPPER SECTION HOW SITE WORKS STEP 2 CLOSING DIV -->
+						</div>
+						<!-- NEXT STEP SIGN -->
+						<img src="Images/next.png" class="next-step-sign-1" />
+					<!--UPPER SECTION DIV 2 CLOSING -->	
+					</div>
+					
+					<!--UPPER SECTION DIV 3 OPENING -->
+					<div id="upper-section-div-3">
+						<!-- UPPER SECTION NAVIGATOR 1 DIV OPENING -->
+						<div class="section-navigator-2">
+							<!-- IN NAVIGATOR LINE 1 DIV -->
+							<div class="navigator-line-1" >
+							</div>
+							<!--IN NAVIGATOR LINE 2 DIV -->
+							<div class="navigator-line-2" >
+							</div>
+							<!-- IN NAVIGATOR HEADING -->
+							<p align="center" class="navigator-heading">Select your brand</p>
+						<!-- UPPER SECTION NAVIGATOR 1 CLOSING DIV -->
+						
+						</div>
+						<!-- SELECT YOUR BRAND OPTION 1 DIV -->
+						<div id="a" class="brand-1 brandDiv" onclick="selectbrand(this); chngPriceDiamondhonda();">
+							<img src="Images/honda.png" class="brand-img-1" />
+						</div>
+						<!-- SELECT YOUR BRAND OPTION 1 DIV -->
+						<div id="b" class="brand-2 brandDiv" onclick="selectbrand(this); chngPriceDiamondsuzuki();" >
+							<img src="Images/suzuki.png" class="brand-img-2" />
+						</div>
+						<!-- SELECT YOUR BRAND OPTION 1 DIV -->
+						<div id="c" class="brand-3 brandDiv" onclick="selectbrand(this); chngPriceDiamondtata();" >
+							<img src="Images/tata.png" class="brand-img-3" />
+						</div>
+						<!-- NEXT STEP SIGN -->
+						<img src="Images/next.png" class="next-step-sign-2" />
+					<!--UPPER SECTION DIV 3 CLOSING -->
+					</div>
+
+					<!--UPPER SECTION DIV 4 OPENING -->
+					<div id="upper-section-div-4">
+						<!-- UPPER SECTION NAVIGATOR 3 DIV OPENING -->
+						<div class="section-navigator-3">
+							<!-- IN NAVIGATOR LINE 1 DIV -->
+							<div class="navigator-line-1" >
+							</div>
+							<!--IN NAVIGATOR LINE 2 DIV -->
+							<div class="navigator-line-2" >
+							</div>
+							<!-- IN NAVIGATOR HEADING -->
+							<p align="center" class="navigator-heading">Choose Your Plan</p>
+						<!-- UPPER SECTION NAVIGATOR 3 CLOSING DIV -->
+						</div>
+						
+						<!-- UPPER SECTION HOW SITE WORKS STEP 3 OPENING DIV -->
+						<div class="site-work-step-3 planDiv" id="q" onclick="selectPlan(this)" >
+							<!-- IMAGE TAG -->
+							<img class="steps-img" src="Images/diamond.png" />
+							<!-- HEADING TAG -->
+							<p class="steps-heading" align="center">DIAMOND</p>
+							<!-- PRICE OF PLANS -->
+							<p id="diamond" class="steps-price"> <b> $ </b> </p>
+							<!-- PARAGRAPH INFO OPENING DIV -->							
+							<div class="steps-info-para-div">
+								Safe Carz ltd provides policies of different insurance company
+								that we are linked. so we have a large number of plans in which
+								are following
+							<!-- PARAGRAPH INFO CLOSING DIV -->
+							</div>
+							<!-- VIEW POLICY -->
+							<a class="showing-steps" href="policydiamond.html"> View &nbspPolicy </a>
+							<!-- UPPER SECTION HOW SITE WORKS STEP 3 CLOSING DIV -->
+						</div>
+						
+						<!-- UPPER SECTION HOW SITE WORKS STEP 4 OPENING DIV -->
+						<div class="site-work-step-4 planDiv" id="w" onclick="selectPlan(this)">
+							<!-- IMAGE TAG -->
+							<img class="steps-img" src="Images/gold.png" />
+							<!-- HEADING TAG -->
+							<p class="steps-heading" align="center">GOLD</p>
+							<!-- PRICE OF PLANS -->
+							<p id="gold" class="steps-price"> <b> $ </b> </p>
+							<!-- PARAGRAPH INFO OPENING DIV -->
+							<div class="steps-info-para-div">
+								Safe Carz ltd provides policies of different insurance company
+								that we are linked. so we have a large number of plans in which
+								are following
+							<!-- PARAGRAPH INFO CLOSING DIV -->
+							</div>	
+							<!-- VIEW POLICY -->
+							<a class="showing-steps" href="policygold.html"> View &nbspPolicy </a>
+						<!-- UPPER SECTION HOW SITE WORKS STEP 4 CLOSING DIV -->
+						</div>
+						
+						<!-- UPPER SECTION HOW SITE WORKS STEP 5 OPENING DIV -->
+						<div class="site-work-step-5 planDiv" id="e" onclick="selectPlan(this)">
+							<!-- IMAGE TAG -->
+							<img class="steps-img" src="Images/silver.png" />
+							<!-- HEADING TAG -->
+							<p class="steps-heading" align="center">SILVER</p>
+							<!-- PRICE OF PLANS -->
+							<p id="silver" class="steps-price"> <b> $ </b> </p>
+							<!-- PARAGRAPH INFO DIV OPENING DIV -->							
+							<div class="steps-info-para-div">
+								Safe Carz ltd provides policies of different insurance company
+								that we are linked. so we have a large number of plans in which
+								are following
+							<!-- PARAGRAPH INFO DIV CLOSING DIV -->	
+							</div>							
+							<!-- VIEW POLICY -->
+							<a class="showing-steps" href="policysilver.html"> View &nbspPolicy </a>	
+						<!-- UPPER SECTION HOW SITE WORKS STEP 5 CLOSING DIV -->
+						</div>
+						<!-- PROCEED BUTTON -->
+						<a href="form.html">
+							<div class="procced-button">
+								<!-- HEADING TAG -->
+								<p  align="center">Procced</p>
+							<!-- UPPER SECTION HOW SITE WORKS STEP 5 CLOSING DIV -->
+							</div>
+						</a>
+					<!--UPPER SECTION DIV 4 CLOSING -->
+					</div>
+					
+				<!-- UPPER SECTION CLOSING DIV -->
+				</div>
+
+			<!-- SECTION CLOSING TAG -->
+			</section>
+			
+			<!-- FOOTER OPENING TAG -->
+			<footer>
+				<!-- IN FOOTER DIV 1 INFORMATION OPENING DIV -->
+				<div id="footer-information-container">
+					<!-- INFORMATION HEADING -->
+					<p align="center" class="footer-information-heading">INFORMATION</p>
+					<!-- INFORMATION LIST OPENING TAG -->	
+					<ul class="footer-information-list">
+                        <li class="footer-information-li" ><a href="aboutus.html" target="_blank">About Us</a></li>
+						<li class="footer-information-li" ><a href="storelocation.html" target="_blank">Store Locations</a></li>
+						<li class="footer-information-li" ><a href="terms.html" target="_blank">Terms</a></li>
+						<li class="footer-information-li" ><a href="contectus.html" target="_blank">Contact Us</a></li>
+					<!-- INFORMATION LIST CLOSING TAG -->
+					</ul>
+				<!-- IN FOOTER DIV 1 INFORMATION CLOSING DIV -->
+				</div>
+				
+				<!-- IN FOOTER DIV 2 COMPANIES LINKED OPENING DIV -->
+				<div id="footer-companies-likned-container">
+					<!-- COMPANIES LINKED HEADING -->
+					<p align="center" class="footer-companies-likned-heading">COMPANIES LINKED</p>
+					<!-- COMANIES LINKED LIST OPENING TAG -->
+					<ul class="footer-companies-likned-list">  <!--Footer Inner Div 2 Content-->
+						<li class="footer-companies-likned-li" ><a href="zurich.html">Zurich Insurance</a></li>
+						<li class="footer-companies-likned-li" ><a href="jubilee.html">Jubilee Insurance</a></li>
+						<li class="footer-companies-likned-li" ><a href="nationwide.html">Nationwide Insurance</a></li>
+						<li class="footer-companies-likned-li" ><a href="geico.html">Geico Insurance</a></li>
+						<li class="footer-companies-likned-li" ><a href="progressive.html">Progressive Insurance</a></li>
+                    <!-- COMANIES LINKED LIST CLOSING TAG -->
+					</ul>
+				<!-- IN FOOTER DIV 2 COMPANIES LINKED OPENING DIV -->
+				</div>
+				
+				<!-- IN FOOTER DIV 3 CONTACT US OPENING DIV -->
+				<div id="footer-contact-us-container">
+					<!-- HEADING CONTACT US -->
+					<p class="footer-contact-us-heading">CONTACT US </p>
+						<!-- CONTACT US LIST -->
+						<p class="footer-contact-us-info-1">Within the UK<b>: 0333 123 1983</b> </p>
+						<p class="footer-contact-us-info-2">Non-UK<b>: +44 (0) 1244-976-301</b> </p>
+						<p class="footer-contact-us-info-3">Other<b>: +1(800)2345-6789</b> </p>
+						<p class="footer-contact-us-info-4">Get Connected With Us & Get Latest News & Updates.! </p>
+					<!-- SOCIAL MEDIA ICON CONTAINER OPENING DIV -->
+					<div class="social-media-icon-container">
+						<!-- ANCHOR OF FACBOOK IMG TAG -->
+						<a href="https://www.facebook.com/"> <img src="Images/f_icon.png" class="social-media-img"/> </a>
+						<!-- ANCHOR OF TWITTER IMG TAG -->
+						<a href="https://twitter.com/"> <img src="Images/t_icon.png" class="social-media-img"/> </a>
+						<!-- ANCOR OF GOOGLE IMG TAG -->
+						<a href="https://gmail.com/"> <img src="Images/g_icon.png" class="social-media-img"/> </a>
+					<!-- SOCIAL MEDIA ICON CONTAINER CLOSING DIV -->
+					</div>
+					<!-- ONLINE TRANSACTION LOOG IMG CONTAINER OPENING DIV -->
+					<div class="online-payment-logo-container">
+						<!-- IMG TAG -->
+						<img src="Images/visa.png"/>
+						<!-- IMG TAG -->
+						<img src="Images/easypay.png"/>
+						<!-- IMG TAG -->
+						<img src="Images/mastercard.png"/> 
+					<!-- ONLINE TRANSACTION LOOG IMG CONTAINER CLOSING DIV -->
+					</div>
+				<!-- IN FOOTER DIV 3 CONTACT US CLOSING DIV -->
+				</div>
+				
+				<!-- COPYRIGHTS PARA -->
+				<p class="copyright" >&copy; Copyright 2016 Safe Carz Limitted. All rights reserved</p>
+				
+				<!-- FOOTER SEPERATOR DIV 1-->
+				<div class="lower-footer-column-1"> </div>
+				<!-- FOOTER SEPERATOR DIV 2-->
+				<div class="lower-footer-column-2"> </div>
+			<!-- FOOTER CLOSING TAG -->
+			</footer>  
+			
+		<!-- WRAP CLOSING DIV -->			
+		</div>	
+		<!--javaScript-->
+		<script src="../javaScript/script.js"></script>
+	 <!-- BODY CLOSING TAG -->
+	 </body>
+<!-- HTML CLOSING TAG -->	 
+</html>

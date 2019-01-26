@@ -1,0 +1,626 @@
+/*All StyleSheets*/
+
+.wrap /* STYLING WRAP DIV */
+{   
+	width:1300px;
+	height:1151px;
+	background-color:rgb(255,255,255);
+	margin:0 auto;	
+}
+
+header /* STYLING HEADER TAG */
+{
+	
+	width:100%;
+}
+
+section{  /* STYLING SECTION TAG */
+	width:100%;   
+}
+
+footer{  /* STYLING FOOTER */
+	background-image:url();
+	background-repeat:no-repeat;
+	background-size: 100% 100%;
+	height:320px;
+	width:100%;
+	background-color:rgb(186,12,47);
+	float:right;
+	position:relative;
+}
+
+.global-links-bar /* STYLING MAIN NAVIGATION BAR */
+{
+	height:130px;
+	width:100%;
+	background-color:rgb(186,12,47);
+	position:relative;
+	
+}
+.global-links-bar ul /* STYLING NAVIGATION BAR LIST */
+{
+	position:relative;
+  	float: right;
+	clear:left;
+	margin-bottom:0px;
+	margin-top:40px;
+	margin-right:80px;
+}
+.global-links-bar ul li /* STYLING NAVIGATION BAR LIST ITEMS */
+{
+	float: left;
+  	min-height: 1px;
+  	line-height: 1em;
+  	vertical-align: middle;
+	border-right:1px solid white;
+}		
+
+.global-links-bar ul li.hover, /* STYLING NAVIGATION BAR LIST ITEMS ON HOVER */
+.global-links-bar ul li:hover {
+  position: relative;
+  z-index: 599;
+  cursor: default;
+}
+
+
+.global-links-bar ul li { /* STYLING NAVIGATION BAR LIST ITEMS */
+  float: none;
+}
+		
+.global-links-bar:after,   /* Custom CSS Styles */
+.global-links-bar ul:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+
+.global-links-bar > ul > li > a { /* STYLING NAVIGATION BAR LIST ITEMS ANCHOR */
+  color: #FFFFFF;
+}
+
+
+.global-links-bar a {  /* STYLING NAVIGATION BAR LIST ITEMS ANCHOR */
+  display: inline-block;
+  font-family:Arial,Helvetica,sans-serif;
+  font-size: 20px;
+  padding: 0 20px;
+  text-align: center;
+  text-decoration: none;
+}
+
+
+.global-links-bar a:hover { /* STYLING NAVIGATION BAR LIST ITEMS ANCHOR HOVER */
+  color: rgb(186,12,47);
+  border-radius: 4px 4px 0 0;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+  position: relative;
+  top: 0;
+  transition-duration:0.5s;
+  opacity:1;
+}
+
+
+.global-links-bar ul {  /* STYLING NAVIGATION BAR LIST */
+  background: rgb(186,12,47);
+  border-radius: 5px 5px 0 0;
+  list-style: none;
+}
+
+
+
+.global-links-bar > ul > li {  /* STYLING NAVIGATION BAR LIST ITEMS */
+  float: left;
+  padding: 0 10px;
+  position: relative;
+  margin-top:30px;
+}
+
+
+
+.global-links-bar > ul > li:hover > a { /* STYLING NAVIGATION BAR LIST ITEMS HOVER ANCHOR */
+  background: #f6f6f6;
+  border-radius: 4px 4px 0 0;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+  position: relative;
+  transition-duration:0.5s;
+}
+
+
+.global-links-bar > ul > li a {  /* STYLING NAVIGATION BAR LIST ITEMS ANCHOR */
+  line-height: 35px;
+}
+
+.global-links-bar > ul > li a:hover {  /* STYLING NAVIGATION BAR LIST ITEMS ANCHOR HOVER */
+  box-shadow: none;
+}
+
+.logo {  /* STYLING MAIN LOGO */
+	background-repeat:no-repeat;
+	position:absolute;
+	margin-left:5px;
+	margin-top:25px;
+}
+
+#upper-section {  /* STYLING UPPER SECTION */
+	
+	
+	height:700px;
+	width:100%;
+	background-color:rgb(255,255,255);
+	position:relative;
+	margin-top:0px;
+	margin-bottom:0px;
+}
+
+.section-navigator-1 { /* STYLING SECTION NAVIGATOR 1 */
+	height:50px;
+	width:100%;
+	position:absolute;
+	background-color:rgb(255,255,255);
+	margin-top:20px;
+	
+}
+
+.navigator-heading{ /* STYLING SECTION NAVIGATOR heading */
+	color:rgb(186,12,47);
+	font-size:18px;
+	font-family:Arial,Helvetica,sans-serif;
+	margin-bottom:0px;
+	font-weight:bolder;
+	
+}
+
+.navigator-line-1 { /* STYLING SECTION NAVIGATOR line 1 */
+	height:3px;
+	width:400px;
+	background-color:rgb(186,12,47);
+	position:absolute;
+	margin-left:50px;
+	margin-top:28px;
+	
+}
+
+.navigator-line-2{ /* STYLING SECTION NAVIGATOR 2 */
+	height:3px;
+	width:400px;
+	background-color:rgb(186,12,47);
+	position:absolute;
+	margin-left:850px;
+	margin-top:28px;	
+}
+
+.heading{  /* STYLING NVIGATOR HEADING */
+	color:rgb(186,12,47);
+	font-size:18px;
+}
+
+.margins-0{ /* STYLING MARGINS PARA */
+	margin-bottom:0px;
+	margin-top:0px;
+	position:absolute;
+}
+
+.font-size-info{
+	font-size:14px;
+	font-family:Helvetica;
+}
+
+/*ABOUT US CSS STARTING*/
+.aboutus{  /* STYLING ABOUT US LIST */
+	position:absolute;
+	margin-bottom:0px;
+	margin-top:80px;
+	font-family:Helvetica;
+	margin-left:65px;
+}
+
+.aboutus li {  /* STYLING ABOUT US LIST HOVER */
+	list-style-type:none;
+	font-family:Helvetica;
+}
+/*ABOUT US CSS ENDING*/
+
+/* CONTACT US CSS STARTING*/
+
+.msg-div{
+	position:absolute;
+	height:400px;
+	width:300px;
+	background-color:rgb(186,12,47);
+	border-radius:9px;
+	margin-left:820px;
+	margin-top:145px;
+}
+
+.contacus-div{
+	color:white;
+	font-family:Helvetica;
+	font-size:20px;
+}
+
+.msg-name{
+	margin-left:60px;
+	margin-top:10px;
+	border-radius:7px;
+}
+
+.msg-number{
+	margin-left:60px;
+	margin-top:20px;
+	border-radius:7px;
+}
+
+.msg-email{
+	margin-left:60px;
+	margin-top:20px;
+	border-radius:7px;
+}
+
+.msg-write{
+	margin-top:20px;
+	margin-left:32px;
+	height:115px;
+	width:230px;
+	border-radius:7px;
+}
+
+.cler-btn{
+	margin-top:15px;
+	margin-left:95px;
+}
+
+.contectus{  /* STYLING CONTACT US LIST */
+	position:absolute;
+	margin-bottom:0px;
+	margin-top:130px;
+	font-family:Helvetica;
+	margin-left:28px;
+}
+
+.contectus li {  /* STYLING CONTACT US LIST HOVER */
+	list-style-type:none;
+	font-family:Helvetica;
+}
+/*CONTACT US CSS ENDING*/
+
+/*INSURANCE PLANS CSS STARTING*/
+.insuranceplans{  /* STYLING INSURANCE PLANS LIST */
+	position:absolute;
+	margin-bottom:0px;
+	margin-top:80px;
+	font-family:Helvetica;
+	margin-left:65px;
+}
+
+.insuranceplans li {  /* STYLING INSURANCE PLANS LIST HOVER */
+	list-style-type:none;
+	font-family:Helvetica;
+}
+/*INSURANCE PLANS CSS ENDING*/
+
+/*STORE LOCATION CSS STARTING*/
+.locations{  /* STYLING LOCATION LIST */
+	position:absolute;
+	margin-bottom:0px;
+	margin-top:153px;
+	margin-left:76px;
+	font-family:Helvetica;
+}
+
+.locations li {  /* STYLING LOCATION LIST HOVER */
+	list-style-type:none;
+	font-family:Helvetica;
+}
+/*STORE LOCATION CSS ENDING*/
+
+/*TERMS CSS STARTING*/
+.terms{  /* STYLING TERMS LIST */
+	position:absolute;
+	margin-bottom:0px;
+	margin-top:80px;
+	font-family:Helvetica;
+}
+
+.terms li {  /* STYLING TERMS LIST HOVER */
+	list-style-type:none;
+	font-family:Helvetica;
+}
+/*TERMS CSS ENDING*/
+
+/*POLICY DIAMOND CSS STARTING */
+.policies-diamond{  /* STYLING DIAMOND POLICY LIST */
+	position:absolute;
+	margin-bottom:0px;
+	margin-top:80px;
+	font-family:Helvetica;
+}
+
+.policies-diamond li {  /* STYLING DIAMOND POLICY LIST HOVER */
+	list-style-type:none;
+	font-family:Helvetica;
+}
+/*POLICY DIAMOND CSS ENDING*/
+
+/*POLICY GOLD CSS STARTING*/
+.policies-gold{  /* STYLING GOLD POLICY LIST */
+	position:absolute;
+	margin-bottom:0px;
+	margin-top:80px;
+	font-family:Helvetica;
+}
+
+.policies-gold li {  /* STYLING GOLD POLICY LIST HOVER */
+	list-style-type:none;
+	font-family:Helvetica;
+}
+/*POLICY GOLD CSS ENDING*/
+
+/*POLICY SILVER CSS STARTING*/
+.policies-silver{  /* STYLING SILVER POLICY LIST */
+	position:absolute;
+	margin-bottom:0px;
+	margin-top:80px;
+	font-family:Helvetica;
+}
+
+.policies-silver li {  /* STYLING SILVER POLICY LIST HOVER */
+	list-style-type:none;
+	font-family:Helvetica;
+}
+/*POLICY SILVER CSS ENDING*/
+
+/* FORM CSS STARTING*/
+.table-all{ /* STYLING MAIN TABLE */ 
+	border-collapse: collapse;
+	margin-top:45px;
+	width:800px;
+	height:500px;
+}
+
+.h3-heading{  /* STYLING MAIN TABLE SELECT TAG */
+	float:left;
+	line-height:22px;
+	color:rgb(186,12,47);
+	font-family:Helvetica;
+	font-size:30px;
+	margin:5px 0 0 30px;
+}
+
+.h4-heading{  /* STYLING MAIN TABLE SUB HEADINGS */
+	width:150px;
+	float:left;
+	color:rgb(186,12,47);
+	font-family:Helvetica;
+	font-weight:bold;
+	font-size:17px;
+	margin:0 0 0 0;
+}
+
+.h4-feild-heading{  /* STYLING MAIN TABLE OPTIONS */
+	width:150px;
+	float:left;
+	color:#404040;
+	font-family:Helvetica;
+	font-weight:bold;
+	font-size:13px;
+	margin:0 0 0 0;
+}
+
+.h4-select-field  /* STYLING MAIN TABLE FIELDS*/
+{
+	width:150px;
+	height:25px;
+	font-size:10px;
+}
+
+.field_instruction  /* STYLING MAIN TABLE FIELD INS */
+{
+	
+	color:#404040;
+	font-size:12px
+}
+
+.procced-button{  /* STYLING PROCCED BUTTON */
+	position:absolute;
+	height:40px;
+	width:150px;
+	margin-top:40px;
+	margin-left:135px;
+	background-color:rgb(186,12,47);
+	color:white;
+	font-family:Helvetica;
+	
+}
+
+.procced-button p{  /* STYLING PROCCED HEADING */
+	margin-bottom:0px;
+	margin-top:10px;
+}
+
+.procced-button:hover{ /* STYLING PROCCED HEADING */
+	opacity:0.9;
+}
+/*FORM CSS ENDING*/
+
+#footer-information-container{  /* STYLING FOOTER INFORMATION CONTAINER */
+	height:270px;
+	width:367px;
+	background-color:rgb(186,12,47);
+	position:absolute;
+	margin-left:53px;
+}
+
+.footer-information-heading{ /* STYLING FOOTER INFORMATION HEADING */
+	color:white;
+	font-size:14px;
+	font-family:Arial,Helvetica,sans-serif;
+	margin-bottom:0px;
+	font-weight:bold;
+	margin-top:60px;
+	margin-left:83px;
+	
+}
+
+.footer-information-list{  /* STYLING FOOTER INFORMATION LIST */
+	padding:0px;
+	margin-left:172px;
+	font-size:1em;
+	list-style-type:none;
+	font-size:14px;
+	margin-top:0px;
+	padding-top:27px;	
+}
+.footer-information-list a:hover{  /* STYLING FOOTER INFORMATION LIST ANCHOR HOVER */
+	color:#FA8072;
+}
+
+.footer-information-li { /* STYLING FOOTER INFORMATION LIST LI */
+	padding:5px;
+}
+
+.footer-information-li a { /* STYLING FOOTER INFORMATION LIST LI HOVER */
+	text-decoration:none;
+	color:white;
+	font-family:Arial,Helvetica,sans-serif;
+}
+
+#footer-companies-likned-container{  /* STYLING COMPANIES LINKED CONTAINER */
+	height:270px;
+	width:388px;
+	background-color:rgb(186,12,47);
+	position:absolute;
+	left:400px;              
+}
+
+.footer-companies-likned-heading{  /* STYLING COMPANIES LINKED HEADING */
+	color:white;
+	font-size:14px;
+	font-family:Arial,Helvetica,sans-serif;
+	margin-bottom:0px;
+	font-weight:bold;
+	margin-right:68px;
+	margin-top:60px;
+}
+
+.footer-companies-likned-list{  /* STYLING COMPANIES LINKED LIST */
+	padding:0px;
+	margin-left:87px;
+	font-size:1em;
+	list-style-type:none;
+	font-size:14px;
+	margin-top:0px;
+	padding-top:27px;
+}
+
+.footer-companies-likned-list a:hover{  /* STYLING COMPANIES LINKED LIST ANCHOR HOVER */
+	color:#FA8072;
+}
+
+.footer-companies-likned-li { /* STYLING COMPANIES LINKED LIST LI */
+	padding:5px;
+}
+
+.footer-companies-likned-li a { /* STYLING COMPANIES LINKED LIST LI ANCHOR */
+	text-decoration:none;
+	color:white;
+	font-family:Arial,Helvetica,sans-serif;
+}
+
+#footer-contact-us-container{  /* STYLING CONTACT US CONTAINER */
+	height:320px;
+	width:488px;
+	background-color:rgb(186,12,47);
+	position:absolute;
+	left:811px;
+}
+
+.footer-contact-us-heading{ /* STYLING CONTACT US HEADING */
+	color:white;
+	font-size:14px;
+	font-family:Arial,Helvetica,sans-serif;
+	margin-bottom:0px;
+	font-weight:bold;
+	margin-top:60px;
+}
+
+.footer-contact-us-info-1{  /* STYLING CONTACT US INFO 1 */
+	color:white;
+	font-size:14px;
+	margin-top:0px;
+	padding-top:27px;
+}
+
+.footer-contact-us-info-2{  /* STYLING CONTACT US INFO 2 */
+	color:white;
+	font-size:14px;	
+}
+
+.footer-contact-us-info-3{  /* STYLING CONTACT US INFO 3 */
+	color:white;
+	font-size:14px;
+}
+
+.footer-contact-us-info-4{  /* STYLING CONTACT US INFO 4 */
+	color:white;
+	padding-top:0px;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:14px;
+}
+
+.social-media-icon-container {  /* STYLING SOCIAL MEDIA ICON CONTAINER */
+	height:45px;
+	width:140px;
+	position:absolute;	
+}
+
+.social-media-icon-container a { /* STYLING SOCIAL MEDIA ICON CONTAINER ANCHOR */
+	text-decoration:none;
+	opacity:0.5;
+}
+
+.social-media-icon-container a:hover {  /* STYLING SOCIAL MEDIA ICON ANCHOR HOVER */
+	opacity:1;	
+}
+
+.social-media-img{ /* STYLING SOCIAL MEDIA ICON IMAGES */
+	height:30px;
+	width:30px;
+}
+
+.online-payment-logo-container{ /* STYLING ONLINE PAYMENT LOGO CONTAINER */
+	height:55px;
+	width:207px;
+	position:absolute;
+	margin-left:265px;
+	margin-top:30px;	
+}
+
+.copyright{
+	position:absolute;
+	margin-top:295px;
+	color:white;
+	margin-left:12px;
+	margin-bottom:0px;
+	font-size:12px;
+}
+
+.lower-footer-column-1{
+	height:185px;
+	width:3px;
+	position:relative;
+	background-color:black;
+	opacity:0.2;
+	left:420px;
+	top:51px;
+}
+
+.lower-footer-column-2{
+	height:185px;
+	width:3px;
+	position:relative;
+	background-color:black;
+	opacity:0.2;
+	left:737px;
+	top:-140px;
+}
